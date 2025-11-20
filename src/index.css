@@ -150,6 +150,18 @@
   font-feature-settings: "ss01" on;
 }
 
+@layer utilities {
+  .special-font b {
+    font-family: "Zentry";
+    font-feature-settings: "ss01" on;
+  }
+
+  .animated-word b {
+    font-family: "Zentry";
+    font-feature-settings: "ss01" on;
+  }
+}
+
 @utility animated-word {
   @apply font-zentry font-black opacity-0;
   transform: translate3d(10px, 51px, -60px) rotateY(60deg) rotateX(-40deg);
