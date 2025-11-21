@@ -145,10 +145,10 @@
   @apply border border-white/20;
 }
 
-@utility special-font {
+/* @utility special-font {
   font-family: "Zentry";
   font-feature-settings: "ss01" on;
-}
+} */
 
 @layer utilities {
   .special-font b {
