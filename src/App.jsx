@@ -6,6 +6,8 @@ import Story from './components/Story';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+import { Analytics } from "@vercel/analytics/next"
+
 const App = () => {
   return (
     <div className='relative min-h-screen w-screen overflow-x-hidden'>
@@ -16,6 +18,7 @@ const App = () => {
       <Story />
       <Contact />
       <Footer />
+      <Analytics />
     </div>
   )
 }
